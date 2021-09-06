@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="One">
+    <parameter name="suitename" value="Suite ONE"/>
+
+    <test name="iOS">
+        <parameter name="deviceName" value="iPhone 12 pro max"/>
+        <parameter name="udid" value="A9AB2DDC-EC7F-43B1-8053-72ED97D7B23B" />
+        <parameter name="platformVersion" value="9.3" />
+        <parameter name="url1" value="http://0.0.0.0:" />
+        <parameter name="url2" value="/wd/hub"/>
+        <parameter name="appname" value="app"/>
+        <classes>
+            <class name="Test_001"/>
+        </classes>
+    </test>
+</suite>

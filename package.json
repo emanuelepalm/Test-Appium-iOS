@@ -1,0 +1,22 @@
+{
+  "name": "jenkins_appium_android_emulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "android-emulator"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanuelepalm/appium_test_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emanuelepalm/appium_test_2/issues"
+  },
+  "homepage": "https://github.com/emanuelepalm/appium_test_2#readme",
+  "dependencies": {
+    "@sfiorini/android-emulator": "^1.2.2"
+  }
+}
