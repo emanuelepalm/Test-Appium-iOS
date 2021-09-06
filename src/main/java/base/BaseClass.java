@@ -42,8 +42,6 @@ public class BaseClass {
             server = new AppiumServer();
             Thread.sleep(10000);
 
-            while(!AndroidEmu.checkDevices());
-            Thread.sleep(5000);
 
             DesiredCapabilities cap=new DesiredCapabilities();
             cap.setCapability("deviceName", emuName);
